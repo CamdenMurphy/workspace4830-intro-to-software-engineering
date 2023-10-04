@@ -1,0 +1,6 @@
+127.0.0.1 - - [03/Oct/2023:21:37:58 -0500] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [03/Oct/2023:21:37:59 -0500] "GET /techExercise-Murphy/MyServletMurphy HTTP/1.1" 200 31
+0:0:0:0:0:0:0:1 - - [03/Oct/2023:21:37:59 -0500] "GET /favicon.ico HTTP/1.1" 404 762
+127.0.0.1 - - [03/Oct/2023:21:47:25 -0500] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [03/Oct/2023:21:47:26 -0500] "GET /techExercise-Murphy/MyServletMurphy HTTP/1.1" 200 12
+0:0:0:0:0:0:0:1 - - [03/Oct/2023:21:57:53 -0500] "GET /techExercise-Murphy/MyServletMurphy HTTP/1.1" 200 12
