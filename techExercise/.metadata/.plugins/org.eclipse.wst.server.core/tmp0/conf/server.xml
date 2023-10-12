@@ -152,7 +152,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="C:\Users\camde\Desktop\Software Engineering\workspace4830\techExercise\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\camde\Desktop\Software Engineering\workspace4830\techExercise\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\techExercise-Murphy" path="/techExercise-Murphy" reloadable="true" source="org.eclipse.jst.jee.server:techExercise-Murphy"/></Host>
+      <Context docBase="C:\Users\camde\Desktop\Software Engineering\workspace4830\workspace4830-intro-to-software-engineering\techExercise\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\camde\Desktop\Software Engineering\workspace4830\workspace4830-intro-to-software-engineering\techExercise\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\techExercise-Murphy" path="/techExercise-Murphy" reloadable="true" source="org.eclipse.jst.jee.server:techExercise-Murphy"/></Host>
     </Engine>
   </Service>
 </Server>
