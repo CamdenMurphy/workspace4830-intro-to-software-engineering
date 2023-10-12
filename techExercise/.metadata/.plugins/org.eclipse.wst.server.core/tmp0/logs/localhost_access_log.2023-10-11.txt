@@ -1,2 +1,4 @@
 127.0.0.1 - - [11/Oct/2023:20:59:01 -0500] "GET / HTTP/1.1" 404 751
 0:0:0:0:0:0:0:1 - - [11/Oct/2023:20:59:02 -0500] "GET /techExercise-Murphy/MyServletMurphy HTTP/1.1" 200 12
+127.0.0.1 - - [11/Oct/2023:21:01:08 -0500] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [11/Oct/2023:21:01:09 -0500] "GET /techExercise-Murphy/MyServletMurphy HTTP/1.1" 200 12
