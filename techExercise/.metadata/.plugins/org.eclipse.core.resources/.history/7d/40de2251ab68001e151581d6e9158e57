@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet("/MyServletDBMurphy")
 public class MyServletDBMurphy extends HttpServlet {
    private static final long serialVersionUID = 1L;
-   static String url = "jdbc:mysql://ec2-52-15-217-229.us-east-2.compute.amazonaws.com:3306/carDBMurphy";
+   static String url = "jdbc:mysql://ec2-3-137-160-211.us-east-2.compute.amazonaws.com:3306/myDB";
    static String user = "camdenmurphy_remote";
    static String password = "Daniel.1227";
    static Connection connection = null;
@@ -48,31 +48,20 @@ public class MyServletDBMurphy extends HttpServlet {
          System.out.println("Failed to make connection!");
       }
       try {
-         String selectSQL = "SELECT * FROM carTableMurphy";
+         String selectSQL = "SELECT * FROM myTableMurphy0907";
          response.getWriter().println(selectSQL + "<br>");
          response.getWriter().println("------------------------------------------<br>");
          PreparedStatement preparedStatement = connection.prepareStatement(selectSQL);
          ResultSet rs = preparedStatement.executeQuery();
          while (rs.next()) {
-        	 String id = rs.getString("ID");
-        	 String year = rs.getString("YEAR");
-        	 String make = rs.getString("MAKE");
-        	 String model = rs.getString("MODEL");
-        	 String price = rs.getString("PRICE)");
-        	 
-        	 response.getWriter().append("Car ID: " + id + ", ");
-        	 response.getWriter().append("Car YEAR: " + year + ", ");
-        	 response.getWriter().append("Car MAKE: " + make + ", ");
-        	 response.getWriter().append("Car MODEL: " + model + ", ");
-        	 response.getWriter().append("Car PRICE: " + price + ", ");
-//            String id = rs.getString("ID");
-//            String username = rs.getString("MYUSER");
-//            String email = rs.getString("EMAIL");
-//            String phone = rs.getString("PHONE");
-//            response.getWriter().append("USER ID: " + id + ", ");
-//            response.getWriter().append("USER NAME: " + username + ", ");
-//            response.getWriter().append("USER EMAIL: " + email + ", ");
-//            response.getWriter().append("USER PHONE: " + phone + "<br>");
+            String id = rs.getString("ID");
+            String username = rs.getString("MYUSER");
+            String email = rs.getString("EMAIL");
+            String phone = rs.getString("PHONE");
+            response.getWriter().append("USER ID: " + id + ", ");
+            response.getWriter().append("USER NAME: " + username + ", ");
+            response.getWriter().append("USER EMAIL: " + email + ", ");
+            response.getWriter().append("USER PHONE: " + phone + "<br>");
          }
       } catch (SQLException e) {
          e.printStackTrace();

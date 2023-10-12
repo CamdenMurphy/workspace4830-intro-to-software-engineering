@@ -43,50 +43,32 @@ public class SearchMurphy extends HttpServlet {
          connection = DBConnectionMurphy.connection;
 
          if (keyword.isEmpty()) {
-        	 String selectSQL = "SELECT * FROM carTableMurphy";
-//            String selectSQL = "SELECT * FROM myTableMurphy0907";
+            String selectSQL = "SELECT * FROM myTableMurphy0907";
             preparedStatement = connection.prepareStatement(selectSQL);
          } else {
-            String selectSQL = "SELECT * FROM carTableMurphy WHERE MAKE LIKE ?";
-//            String selectSQL = "SELECT * FROM myTableMurphy0907 WHERE EMAIL LIKE ?";
-            String carMake = "%" + keyword + "%";
-//            String theUserEmail = "%" + keyword + "%";
+            String selectSQL = "SELECT * FROM myTableMurphy0907 WHERE EMAIL LIKE ?";
+            String theUserEmail = "%" + keyword + "%";
             preparedStatement = connection.prepareStatement(selectSQL);
-            preparedStatement.setString(1, carMake);
-//            preparedStatement.setString(1, theUserEmail);
+            preparedStatement.setString(1, theUserEmail);
          }
          ResultSet rs = preparedStatement.executeQuery();
 
          while (rs.next()) {
-        	 int id = rs.getInt("id");
-        	 String year = rs.getString("year").trim();
-        	 String make = rs.getString("make").trim();
-        	 String model = rs.getString("model").trim();
-        	 String price = rs.getString("price").trim();
-        	 
-        	 if (keyword.isEmpty() || make.contains(keyword)) {
-        		 out.println("ID: " + id + ", ");
-        		 out.println("Year: " + year + ", ");
-        		 out.println("Make: " + make + ", ");
-        		 out.println("Model: " + model + ", ");
-        		 out.println("Price: " + price + "<br>");
-        	 }
-//            int id = rs.getInt("id");
-//            String userName = rs.getString("myuser").trim();
-//            String email = rs.getString("email").trim();
-//            String phone = rs.getString("phone").trim();
-//            String address = rs.getString("address").trim();
-//
-//            if (keyword.isEmpty() || email.contains(keyword)) {
-//               out.println("ID: " + id + ", ");
-//               out.println("User: " + userName + ", ");
-//               out.println("Email: " + email + ", ");
-//               out.println("Phone: " + phone + ", ");
-//               out.println("Address: " + address + "<br>");
-//            }
+            int id = rs.getInt("id");
+            String userName = rs.getString("myuser").trim();
+            String email = rs.getString("email").trim();
+            String phone = rs.getString("phone").trim();
+            String address = rs.getString("address").trim();
+
+            if (keyword.isEmpty() || email.contains(keyword)) {
+               out.println("ID: " + id + ", ");
+               out.println("User: " + userName + ", ");
+               out.println("Email: " + email + ", ");
+               out.println("Phone: " + phone + ", ");
+               out.println("Address: " + address + "<br>");
+            }
          }
-         out.println("<a href=/techExercise-Murphy/search_murphy.html>Search Data</a> <br>");
-//         out.println("<a href=/webproject-ex-0907-murphy/search_murphy.html>Search Data</a> <br>");
+         out.println("<a href=/webproject-ex-0907-murphy/search_murphy.html>Search Data</a> <br>");
          out.println("</body></html>");
          rs.close();
          preparedStatement.close();
