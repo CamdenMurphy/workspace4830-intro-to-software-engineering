@@ -32,22 +32,26 @@ footer {
 
 <body>
 <header>
-<h1> Search Data</h1>
+<h1> Insert Data </h1>
 </header>
 
 <nav>
-<a href="/techExercise-Murphy/insert_murphy.html">Insert Data</a> <br>
-<a href="/techExercise-Murphy/delete_murphy.html">Delete Data</a> <br>
+<a href="/webproject-ex-0907-murphy/search_murphy.html">Search Data</a> <br>
 </nav>
 
 <section>
 	<h1>User Input</h1>
 	
-	<form action="SearchMurphy" method="POST">
-	
-		Make <input type="text" name="keyword"> <br />
+	<form action="InsertMurphy" method="POST">
 		
-		<input type="submit" value="Search" />
+		ID: <input type="text" name="year"> <br/>
+	
+		Year: <input type="text" name="year"> <br />
+		Make: <input type="text" name="make"> <br />
+		Model: <input type="text" name="model"> <br />
+		Price: <input type="text" name="price"> <br />
+		
+		<input type="submit" value="Submit" />
 	</form>
 
 </section>

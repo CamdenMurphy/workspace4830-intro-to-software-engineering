@@ -1,0 +1,4 @@
+0:0:0:0:0:0:0:1 - - [12/Oct/2023:00:08:12 -0500] "GET /techExercise-Murphy/search_murphy.html HTTP/1.1" 200 957
+0:0:0:0:0:0:0:1 - - [12/Oct/2023:00:08:15 -0500] "GET /techExercise-Murphy/delete_murphy.html HTTP/1.1" 200 886
+0:0:0:0:0:0:0:1 - - [12/Oct/2023:00:09:02 -0500] "GET /webproject-ex-0907-murphy/search_murphy.html HTTP/1.1" 404 799
+0:0:0:0:0:0:0:1 - - [12/Oct/2023:00:09:16 -0500] "GET /techExercise-Murphy/search_murphy.html HTTP/1.1" 304 -
