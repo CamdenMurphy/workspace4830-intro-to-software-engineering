@@ -2,3 +2,15 @@
 0:0:0:0:0:0:0:1 - - [11/Oct/2023:20:59:02 -0500] "GET /techExercise-Murphy/MyServletMurphy HTTP/1.1" 200 12
 127.0.0.1 - - [11/Oct/2023:21:01:08 -0500] "GET / HTTP/1.1" 404 751
 0:0:0:0:0:0:0:1 - - [11/Oct/2023:21:01:09 -0500] "GET /techExercise-Murphy/MyServletMurphy HTTP/1.1" 200 12
+127.0.0.1 - - [11/Oct/2023:21:59:26 -0500] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [11/Oct/2023:21:59:27 -0500] "GET /techExercise-Murphy/WEB-INF/classes/DBConnectionMurphy.java HTTP/1.1" 404 682
+127.0.0.1 - - [11/Oct/2023:22:16:14 -0500] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [11/Oct/2023:22:16:15 -0500] "GET /techExercise-Murphy/WEB-INF/search_murphy.html HTTP/1.1" 404 682
+127.0.0.1 - - [11/Oct/2023:22:29:05 -0500] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [11/Oct/2023:22:29:05 -0500] "GET /techExercise-Murphy/search_murphy.html HTTP/1.1" 200 885
+0:0:0:0:0:0:0:1 - - [11/Oct/2023:22:54:59 -0500] "GET /techExercise-Murphy/search_murphy.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [11/Oct/2023:22:57:30 -0500] "POST /techExercise-Murphy/SearchMurphy HTTP/1.1" 200 181
+0:0:0:0:0:0:0:1 - - [11/Oct/2023:22:59:17 -0500] "POST /techExercise-Murphy/SearchMurphy HTTP/1.1" 200 181
+127.0.0.1 - - [11/Oct/2023:23:03:43 -0500] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [11/Oct/2023:23:03:53 -0500] "GET /techExercise-Murphy/search_murphy.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [11/Oct/2023:23:03:55 -0500] "POST /techExercise-Murphy/SearchMurphy HTTP/1.1" 200 181
