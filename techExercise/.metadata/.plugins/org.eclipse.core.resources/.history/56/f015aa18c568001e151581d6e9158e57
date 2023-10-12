@@ -1,0 +1,53 @@
+<html>
+<head>
+<style>
+header {
+    padding:5px;	 
+}
+nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:200px;
+    float:left;
+    padding:5px;	      
+}
+section {
+    width:350px;
+    float:left;
+    padding:10px;	 	 
+}
+footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;	 	 
+}
+</style>
+</head>
+
+<body>
+<header>
+<h1> Remove Vehicle </h1>
+</header>
+
+<nav>
+<a href="/techExercise-Murphy/search_murphy.html">Search Inventory</a> <br>
+<a href="/techExercise-Murphy/insert_murphy.html">Insert Vehicle</a> <br>
+</nav>
+
+<section>
+	<h1>Vehicle Identification Number (VIN)</h1>
+	
+	<form action="DeleteMurphy" method="POST">
+		
+		ID: <input type="text" name="id"> <br/>
+		
+		<input type="submit" value="Submit" />
+	</form>
+</section>
+
+
+</body>
+</html>

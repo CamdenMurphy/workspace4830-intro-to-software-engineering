@@ -2,37 +2,42 @@
 <head>
 <style>
 header {
-    background-color:black;
-    color:white;
-    text-align:center;
-    padding:5px;	 
+	text-align: center; 
 }
 nav {
     line-height:30px;
     background-color:#eeeeee;
     height:300px;
-    width:100px;
+    width:200px;
     float:left;
     padding:5px;	      
 }
+img {
+	display: inline-block;
+}
 section {
-    width:350px;
+    width:500px;
     float:left;
     padding:10px;	 	 
 }
 footer {
-    background-color:black;
-    color:white;
+    background-color:orangered;
+    color:White;
     clear:both;
     text-align:center;
     padding:5px;	 	 
+}
+header h1 {
+	background-color: orangered;
+	color: white;
 }
 </style>
 </head>
 
 <body>
 <header>
-<h1> Remove Vehicle </h1>
+	<img src="car_icon.webp" alt="car logo">
+	<h1> Remove Vehicle </h1>
 </header>
 
 <nav>
@@ -41,7 +46,7 @@ footer {
 </nav>
 
 <section>
-	<h1>Vehicle Identification Number (VIN)</h1>
+	<h1>Vehicle ID</h1>
 	
 	<form action="DeleteMurphy" method="POST">
 		
@@ -51,6 +56,8 @@ footer {
 	</form>
 </section>
 
-
+<footer>
+	Murphy Auto Sales
+</footer>
 </body>
 </html>

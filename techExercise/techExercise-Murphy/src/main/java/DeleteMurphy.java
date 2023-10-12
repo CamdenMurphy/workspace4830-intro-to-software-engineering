@@ -58,7 +58,7 @@ public class DeleteMurphy extends HttpServlet {
       // Set response content type
       response.setContentType("text/html");
       PrintWriter out = response.getWriter();
-      String title = "Delete Data from DB table";
+      String title = "Vehicle Removed!";
       String docType = "<!doctype html public \"-//w3c//dtd html 4.0 " + "transitional//en\">\n";
       out.println(docType + //
             "<html>\n" + //
@@ -71,7 +71,9 @@ public class DeleteMurphy extends HttpServlet {
 
             "</ul>\n");
 
-      out.println("<a href=/techExercise-Murphy/search_murphy.html>Search Data</a> <br>");
+      out.println("<a href=/techExercise-Murphy/search_murphy.html>Search Inventory</a> <br>");
+      out.println("<a href=/techExercise-Murphy/insert_murphy.html>Insert Vehicle</a> <br>");
+      out.println("<a href=/techExercise-Murphy/delete_murphy.html>Remove Vehicle</a> <br>");
       out.println("</body></html>");
    }
 

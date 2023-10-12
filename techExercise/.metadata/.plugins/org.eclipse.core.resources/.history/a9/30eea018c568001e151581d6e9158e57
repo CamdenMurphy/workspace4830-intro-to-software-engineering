@@ -1,0 +1,46 @@
+<html>
+<head>
+<style>
+header {
+    padding:5px;	 
+}
+nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:200px;
+    float:left;
+    padding:5px;	      
+}
+section {
+    width:350px;
+    float:left;
+    padding:10px;	 	 
+}
+</style>
+</head>
+
+<body>
+<header>
+<h1> Search Vehicle Inventory</h1>
+</header>
+
+<nav>
+<a href="/techExercise-Murphy/insert_murphy.html">Insert Vehicle</a> <br>
+<a href="/techExercise-Murphy/delete_murphy.html">Remove Vehicle</a> <br>
+</nav>
+
+<section>
+	<h1>Search by Vehicle Make</h1>
+	
+	<form action="SearchMurphy" method="POST">
+	
+		Make <input type="text" name="keyword"> <br />
+		
+		<input type="submit" value="Search" />
+	</form>
+
+</section>
+
+</body>
+</html>

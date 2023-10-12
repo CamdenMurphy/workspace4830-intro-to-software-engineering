@@ -1,0 +1,63 @@
+<html>
+<head>
+<style>
+header {
+	
+    padding:5px;	 
+}
+nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:200px;
+    float:left;
+    padding:5px;	      
+}
+img {
+	display: inline-block;
+}
+section {
+    width:500px;
+    float:left;
+    padding:10px;	 	 
+}
+footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;	 	 
+}
+h1 {
+	display: inline-block;
+}
+</style>
+</head>
+
+<body>
+<header>
+	<img src="car_icon.webp" alt="car logo">
+	<h1> Remove Vehicle </h1>
+</header>
+
+<nav>
+<a href="/techExercise-Murphy/search_murphy.html">Search Inventory</a> <br>
+<a href="/techExercise-Murphy/insert_murphy.html">Insert Vehicle</a> <br>
+</nav>
+
+<section>
+	<h1>Vehicle Identification Number (VIN)</h1>
+	
+	<form action="DeleteMurphy" method="POST">
+		
+		ID: <input type="text" name="id"> <br/>
+		
+		<input type="submit" value="Submit" />
+	</form>
+</section>
+
+<footer>
+	Murphy Auto Sales
+</footer>
+</body>
+</html>

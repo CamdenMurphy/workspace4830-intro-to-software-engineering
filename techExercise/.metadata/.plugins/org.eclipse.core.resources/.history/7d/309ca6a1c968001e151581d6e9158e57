@@ -1,0 +1,67 @@
+<html>
+<head>
+<style>
+header {
+	text-align: center; 
+}
+nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:200px;
+    float:left;
+    padding:5px;	      
+}
+img {
+	display: inline-block;
+}
+section {
+    width:500px;
+    float:left;
+    padding:10px;	 	 
+}
+footer {
+    background-color:orangered;
+    color:White;
+    clear:both;
+    text-align:center;
+    padding:5px;	 	 
+}
+header h1 {
+	background-color: orangered;
+	color: white;
+}
+</style>
+</head>
+
+<body>
+<header>
+	<img src="car_icon.webp" alt="car logo">
+<h1> Insert Vehicle </h1>
+</header>
+
+<nav>
+<a href="/techExercise-Murphy/search_murphy.html">Search Inventory</a> <br>
+<a href="/techExercise-Murphy/delete_murphy.html">Remove Vehicle</a> <br>
+</nav>
+
+<section>
+	<h1>Vehicle Information</h1>
+	
+	<form action="InsertMurphy" method="POST">
+	
+		Year: <input type="text" name="year"> <br />
+		Make: <input type="text" name="make"> <br />
+		Model: <input type="text" name="model"> <br />
+		Price: <input type="text" name="price"> <br />
+		
+		<input type="submit" value="Submit" />
+	</form>
+
+</section>
+
+<footer>
+	Murphy Auto Sales
+</footer>
+</body>
+</html>

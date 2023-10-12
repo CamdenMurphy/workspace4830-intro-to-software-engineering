@@ -27,7 +27,7 @@ public class SearchMurphy extends HttpServlet {
    void search(String keyword, HttpServletResponse response) throws IOException {
       response.setContentType("text/html");
       PrintWriter out = response.getWriter();
-      String title = "Database Result";
+      String title = "Vehicle Inventory";
       String docType = "<!doctype html public \"-//w3c//dtd html 4.0 " + //
             "transitional//en\">\n"; //
       out.println(docType + //
@@ -85,7 +85,9 @@ public class SearchMurphy extends HttpServlet {
 //               out.println("Address: " + address + "<br>");
 //            }
          }
-         out.println("<a href=/techExercise-Murphy/search_murphy.html>Search Data</a> <br>");
+         out.println("<a href=/techExercise-Murphy/search_murphy.html>Search Inventory</a> <br>");
+         out.println("<a href=/techExercise-Murphy/insert_murphy.html>Insert Vehicle</a> <br>");
+         out.println("<a href=/techExercise-Murphy/delete_murphy.html>Remove Vehicle</a> <br>");
 //         out.println("<a href=/webproject-ex-0907-murphy/search_murphy.html>Search Data</a> <br>");
          out.println("</body></html>");
          rs.close();
