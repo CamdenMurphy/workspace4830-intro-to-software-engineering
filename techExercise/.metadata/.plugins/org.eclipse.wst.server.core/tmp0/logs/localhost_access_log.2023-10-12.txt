@@ -157,3 +157,11 @@
 0:0:0:0:0:0:0:1 - - [12/Oct/2023:01:52:08 -0500] "GET /techExercise-Murphy/delete_murphy.html HTTP/1.1" 304 -
 0:0:0:0:0:0:0:1 - - [12/Oct/2023:01:52:11 -0500] "POST /techExercise-Murphy/DeleteMurphy HTTP/1.1" 200 450
 0:0:0:0:0:0:0:1 - - [12/Oct/2023:01:52:16 -0500] "POST /techExercise-Murphy/SearchMurphy HTTP/1.1" 200 637
+127.0.0.1 - - [12/Oct/2023:20:59:34 -0500] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [12/Oct/2023:20:59:35 -0500] "GET /techExercise-Murphy/search_murphy.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [12/Oct/2023:20:59:35 -0500] "GET /techExercise-Murphy/car_icon.webp HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [12/Oct/2023:20:59:41 -0500] "GET /techExercise-Murphy/insert_murphy.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [12/Oct/2023:20:59:41 -0500] "GET /techExercise-Murphy/delete_murphy.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [12/Oct/2023:21:29:27 -0500] "POST /techExercise-Murphy/InsertMurphy HTTP/1.1" 200 524
+0:0:0:0:0:0:0:1 - - [12/Oct/2023:21:29:27 -0500] "POST /techExercise-Murphy/InsertMurphy HTTP/1.1" 200 524
+0:0:0:0:0:0:0:1 - - [12/Oct/2023:21:29:32 -0500] "POST /techExercise-Murphy/SearchMurphy HTTP/1.1" 200 558
