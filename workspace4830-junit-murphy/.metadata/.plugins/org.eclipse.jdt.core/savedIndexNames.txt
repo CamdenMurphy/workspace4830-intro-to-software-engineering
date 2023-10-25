@@ -1,0 +1,20 @@
+INDEX VERSION 1.134+C:\Users\camde\Desktop\Software Engineering\workspace4830-junit-murphy\.metadata\.plugins\org.eclipse.jdt.core
+3096094921.index
+1876789770.index
+3303844406.index
+4110442327.index
+62018364.index
+3183691232.index
+3925288878.index
+3914100944.index
+3705495258.index
+2922438096.index
+176855446.index
+2245383991.index
+1304777898.index
+1865797976.index
+2465478540.index
+4028535514.index
+1266553647.index
+1000260686.index
+3535893003.index

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestComputation_Parameterized" project="simple-junit-examples" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="q1.computation.TestComputation_Parameterized" time="0.009" displayname="TestComputation_Parameterized" uniqueid="[engine:junit-vintage]/[runner:q1.computation.TestComputation_Parameterized]">
+    <testsuite name="[0]" time="0.002" uniqueid="[engine:junit-vintage]/[runner:q1.computation.TestComputation_Parameterized]/[test:%5B0%5D]">
+      <testcase name="testGetDiscount" classname="q1.computation.TestComputation_Parameterized" time="0.002" displayname="testGetDiscount[0]" uniqueid="[engine:junit-vintage]/[runner:q1.computation.TestComputation_Parameterized]/[test:%5B0%5D]/[test:testGetDiscount%5B0%5D(q1.computation.TestComputation_Parameterized)]"/>
+    </testsuite>
+    <testsuite name="[1]" time="0.002" uniqueid="[engine:junit-vintage]/[runner:q1.computation.TestComputation_Parameterized]/[test:%5B1%5D]">
+      <testcase name="testGetDiscount" classname="q1.computation.TestComputation_Parameterized" time="0.002" displayname="testGetDiscount[1]" uniqueid="[engine:junit-vintage]/[runner:q1.computation.TestComputation_Parameterized]/[test:%5B1%5D]/[test:testGetDiscount%5B1%5D(q1.computation.TestComputation_Parameterized)]"/>
+    </testsuite>
+    <testsuite name="[2]" time="0.002" uniqueid="[engine:junit-vintage]/[runner:q1.computation.TestComputation_Parameterized]/[test:%5B2%5D]">
+      <testcase name="testGetDiscount" classname="q1.computation.TestComputation_Parameterized" time="0.002" displayname="testGetDiscount[2]" uniqueid="[engine:junit-vintage]/[runner:q1.computation.TestComputation_Parameterized]/[test:%5B2%5D]/[test:testGetDiscount%5B2%5D(q1.computation.TestComputation_Parameterized)]"/>
+    </testsuite>
+  </testsuite>
+</testrun>

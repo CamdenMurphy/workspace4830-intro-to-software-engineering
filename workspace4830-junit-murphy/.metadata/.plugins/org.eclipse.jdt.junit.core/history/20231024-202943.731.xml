@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestComputation_CsvFileSource.testGetDiscount(int, int, int)" project="simple-junit-examples" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="q2.csvfilesource.TestComputation_CsvFileSource" time="0.078" displayname="TestComputation_CsvFileSource" uniqueid="[engine:junit-jupiter]/[class:q2.csvfilesource.TestComputation_CsvFileSource]">
+    <testsuite name="testGetDiscount(q2.csvfilesource.TestComputation_CsvFileSource)" time="0.078" displayname="testGetDiscount(int, int, int)" parameters="int,int,int" uniqueid="[engine:junit-jupiter]/[class:q2.csvfilesource.TestComputation_CsvFileSource]/[test-template:testGetDiscount(int, int, int)]">
+      <testcase name="testGetDiscount" classname="q2.csvfilesource.TestComputation_CsvFileSource" time="0.078" dynamicTest="true" displayname="[1] 100, 1, 20" parameters="int,int,int" uniqueid="[engine:junit-jupiter]/[class:q2.csvfilesource.TestComputation_CsvFileSource]/[test-template:testGetDiscount(int, int, int)]/[test-template-invocation:#1]"/>
+      <testcase name="testGetDiscount" classname="q2.csvfilesource.TestComputation_CsvFileSource" time="0.003" dynamicTest="true" displayname="[2] 101, 2, 30" parameters="int,int,int" uniqueid="[engine:junit-jupiter]/[class:q2.csvfilesource.TestComputation_CsvFileSource]/[test-template:testGetDiscount(int, int, int)]/[test-template-invocation:#2]"/>
+      <testcase name="testGetDiscount" classname="q2.csvfilesource.TestComputation_CsvFileSource" time="0.005" dynamicTest="true" displayname="[3] 102, 3, 40" parameters="int,int,int" uniqueid="[engine:junit-jupiter]/[class:q2.csvfilesource.TestComputation_CsvFileSource]/[test-template:testGetDiscount(int, int, int)]/[test-template-invocation:#3]"/>
+    </testsuite>
+  </testsuite>
+</testrun>
